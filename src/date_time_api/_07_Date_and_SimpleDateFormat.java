@@ -19,7 +19,7 @@ public class _07_Date_and_SimpleDateFormat {
         sdf = new SimpleDateFormat("E hh:mm a");
         System.out.println(sdf.format(date)); // Fri 04:58 PM
 
-        //
+        // More format examples
         System.out.println(new SimpleDateFormat("EEEE").format(date)); // Friday
         System.out.println(new SimpleDateFormat("yyyy").format(date)); // 2022
         System.out.println(new SimpleDateFormat("hh 'o''clock' a, zzzz").format(date)); // 04 o'clock PM, Central Standard Time
